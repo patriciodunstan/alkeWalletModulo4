@@ -98,10 +98,10 @@ public class Menu {
     private void realizarTransferencia() {
         System.out.println("Ingrese el número de cuenta de origen:");
         int numeroCuentaOrigen = scanner.nextInt();
-        cuentaOrigen = obtenerCuentaPorNumero(numeroCuentaOrigen);
+        Cuenta cuentaOrigen = obtenerCuentaPorNumero(numeroCuentaOrigen);
         System.out.println("Ingrese el número de cuenta de destino:");
         int numeroCuentaDestino = scanner.nextInt();
-        cuentaDestino = obtenerCuentaPorNumero(numeroCuentaDestino);
+        Cuenta cuentaDestino = obtenerCuentaPorNumero(numeroCuentaDestino);
         if (cuentaOrigen != null && cuentaDestino != null) {
             System.out.println("Ingrese el monto a transferir:");
             double monto = scanner.nextDouble();
