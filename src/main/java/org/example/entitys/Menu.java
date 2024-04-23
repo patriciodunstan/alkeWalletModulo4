@@ -123,9 +123,16 @@ public class Menu {
         System.out.println("Monto convertido: " + resultado + " " + monedaDestino);
     }
 
-    private Cuenta obtenerCuentaPorNumero(int numero) {
-        // Lógica para obtener una cuenta por su número, por ejemplo, consultar en la base de datos
-        return null; // En este ejemplo retornamos null, deberías implementar esta lógica según tu sistema
+
+
+    private void crearNuevoUsuario(){
+        System.out.println("Ingrese el nombre del usuario");
+        String nombre = scanner.next();
+
+        System.out.println("Ingrese el correo del usuario");
+        String correo = scanner.next();
+
+
     }
 
     public static void main(String[] args) {

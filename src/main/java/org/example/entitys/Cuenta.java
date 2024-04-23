@@ -45,4 +45,9 @@ public class Cuenta {
     public void setHistorial(List<Transaccion> historial) {
         this.historial = historial;
     }
+
+
+    private Cuenta obtenerCuentaPorNumero(int numero) {
+     this.cuenta
+    }
 }
